@@ -3,8 +3,8 @@ from GeneratorInterface.ReggeGribovPartonMCInterface.ReggeGribovPartonMC_Advance
 
 generator = cms.EDFilter("ReggeGribovPartonMCGeneratorFilter",
                      ReggeGribovPartonMCAdvancedParameters,
-                     beammomentum = cms.double(4000),
-                     targetmomentum = cms.double(-1577),
+                     beammomentum = cms.double(2510),
+                     targetmomentum = cms.double(-2510),
                      beamid = cms.int32(1),
                      targetid = cms.int32(208),
                      model = cms.int32(0),
